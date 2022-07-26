@@ -1,0 +1,78 @@
+#customers {
+    padding: 80px 0;
+}
+
+.customers__block {
+    width: 298px;
+    margin:0 15px;
+}
+
+.customers__text {
+    font-family: 'Open Sans';
+    font-weight: 400;
+    font-size: 14px;
+    padding: 10px 23px 5px;
+    background: #E2E2E2;
+    border-radius: 7px;
+    color: #86878B;
+    position: relative;
+    transition: 0.1s;
+    margin-bottom: 22px;
+}
+
+.customers__text::after {
+    content: "";
+    left: 16%;
+    top: 100%;
+    width: 0;
+    height: 0;
+    border-top: 14px solid #E2E2E2;
+    border-right: 14px solid transparent;
+    border-left: 14px solid transparent;
+    position: absolute;
+}
+
+.customers__card {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.customers__image {
+    
+}
+
+.customers__image img {
+    display: block;
+    width: 70px;
+    height: 70px;
+    object-fit: contain;
+    object-position: center;
+    border-radius: 50%;
+    transition: 1s;
+    overflow: hidden;
+}
+
+.customers.info {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-end;
+    justify-content: space-around;
+}
+
+.customers__name {
+    font-family: 'Open Sans';
+    font-weight: 700;
+    font-size: 20px;
+    line-height: 27px;
+    text-align: right;
+    color: #333333;
+    text-transform: capitalize;
+}
+.customers__job {
+    font-family: 'Open Sans';
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 19px;
+    color: #86878B;
+}
