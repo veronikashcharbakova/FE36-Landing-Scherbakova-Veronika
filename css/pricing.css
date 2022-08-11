@@ -5,6 +5,7 @@
 
 .list {
     width: 340px;
+    margin: 0 15px;
 }
 
 .list__tariff {

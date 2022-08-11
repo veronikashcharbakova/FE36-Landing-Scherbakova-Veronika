@@ -8,6 +8,7 @@
     display: flex;
     justify-content: space-between;
     align-items: center;
+    margin: 0 -15px;
 }
 
 
@@ -33,16 +34,25 @@
 }
 
 .socialmedia__icons {
+    margin: 0 15px;
     width: 684px;
-    height: 42px;
     display: flex;
     justify-content: space-between;
-    margin-left: 100px;
 }
 
 .fa-social_icons {
     color: rgb(179, 173, 173);
     font-size: 50px;
     cursor: pointer;
+    transition: transform .7s ease-in-out;
 }
 
+.fa-social_icons:hover {
+
+    color: rgba(187, 202, 121, 0.295);/*приглушаем белый цвет*/
+    transition-delay: 0s;
+    -webkit-transform: scale(1.2);
+    -ms-transform: scale(1.2);
+    transform: scale(1.2);
+    transform: rotate(360deg); 
+}
